@@ -63,8 +63,8 @@ public class Key2 extends JFrame implements KeyListener {
     repaint();
   }
 
+  // these functions are not used, they're only here so Java doesn't scream at me
   public void keyReleased(KeyEvent e) {}
-
   public void keyTyped(KeyEvent e) {}
 
 }
