@@ -59,7 +59,7 @@ public class Key2 extends JFrame implements KeyListener {
       xpos += vel;
     }
     
-    // repaint the rectangle
+    // repaint the square
     repaint();
   }
 
