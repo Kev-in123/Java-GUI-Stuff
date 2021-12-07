@@ -14,7 +14,11 @@ public class Key extends JFrame implements KeyListener {
     // make the window visible
     setVisible(true);
   }
-
+  
+  public static void main(String[] args) {
+    new Key();
+  }
+  
   // called when a key is pressed
   public void keyPressed(KeyEvent e) {
     // arrow key events
@@ -33,14 +37,8 @@ public class Key extends JFrame implements KeyListener {
   }
 
   // called when a key is released
-  public void keyReleased(KeyEvent e) {
-  }
+  public void keyReleased(KeyEvent e) {}
 
   // called when a key is typed
-  public void keyTyped(KeyEvent e) {
-  }
-
-  public static void main(String[] args) {
-    new Key();
-  }
+  public void keyTyped(KeyEvent e) {}
 }
