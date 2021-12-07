@@ -7,7 +7,6 @@ public class Mouse2 extends JFrame implements MouseMotionListener {
   // declare a few variables we will use later
   static int xpos = 150;
   static int ypos = 150;
-  int vel = 2;
 
   Mouse2() {
     // add a mouse motion listener
