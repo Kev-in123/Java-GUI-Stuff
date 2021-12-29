@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Main extends JFrame {
     Main() {
-        setTitle("Custom Button");
+        setTitle("Button Thingy");
         setSize(300, 200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(null);
