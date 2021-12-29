@@ -1,3 +1,3 @@
-# Java-GUI-Events
+# Java-GUI-Stuff
 
-Common events used in a GUI application/game
+Stuff used in a GUI application/game
